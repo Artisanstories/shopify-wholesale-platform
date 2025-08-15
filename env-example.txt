@@ -1,0 +1,18 @@
+# Database Configuration
+DATABASE_URL=postgresql://username:password@host:port/database
+
+# Shopify App Configuration
+SHOPIFY_API_KEY=your_shopify_api_key
+SHOPIFY_API_SECRET=your_shopify_api_secret
+SHOPIFY_APP_URL=https://your-app.onrender.com
+
+# Email Configuration (Optional)
+SENDGRID_API_KEY=your_sendgrid_api_key
+
+# Payment Processing (Optional)
+STRIPE_SECRET_KEY=your_stripe_secret_key
+VITE_STRIPE_PUBLIC_KEY=your_stripe_public_key
+
+# Environment
+NODE_ENV=production
+PORT=5000
